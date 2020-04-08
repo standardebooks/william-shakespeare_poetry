@@ -12,19 +12,8 @@ section#the-rape-of-lucrece-argument{
 	hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
-}
-
-[epub|type~="epigraph"] cite{
-	margin-top: 1em;
-	font-style: normal;
-	font-variant: small-caps;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
 }
 
 article > header [epub|type~="epigraph"]{
@@ -62,13 +51,11 @@ footer{
 	text-align: right;
 }
 
-[epub|type~="z3998:salutation"] + p,
 [epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
 }
 
 [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
@@ -88,10 +75,6 @@ footer{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] + p{
-	text-indent: 0;
-}
-
 [epub|type~="z3998:poem"] p > span{
 	display: block;
 	text-indent: -1em;
@@ -107,7 +90,7 @@ p span.i1{
 	padding-left: 2em;
 }
 
-span.elision{
+span#elision{
 	margin: .5em;
 	margin-left: 3em;
 }
