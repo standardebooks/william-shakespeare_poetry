@@ -1,6 +1,11 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+article,
+section#the-rape-of-lucrece-argument{
+	page-break-after: always;
+}
+
 /* epigraph */
 [epub|type~="epigraph"]{
 	font-style: italic;
