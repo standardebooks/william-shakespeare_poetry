@@ -39,8 +39,6 @@
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/100</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1545</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1546</dc:source>
 		<dc:source>https://archive.org/details/worksofwilliamsh1901shak</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
