@@ -1,8 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-article,
-section#the-rape-of-lucrece-argument{
+article{
 	page-break-after: always;
 }
 
@@ -42,17 +41,21 @@ header p[epub|type~="dedication"]{
 /* end dedication */
 
 /* dedication letter */
-[epub|type~="z3998:letter"] header{
-	text-align: right;
-}
-
-footer{
-	margin-top: 1em;
+[epub|type~="z3998:letter"] header p{
 	text-align: right;
 }
 
 [epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
+}
+
+[epub|type~="z3998:letter"] footer p{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] footer p + p{
+	margin-top: 0;
 }
 
 [epub|type~="z3998:sender"],
