@@ -11,10 +11,6 @@ article{
 	hyphens: none;
 }
 
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
 article > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
@@ -93,7 +89,7 @@ p span.i1{
 	padding-left: 2em;
 }
 
-span#elision{
+span.elision{
 	margin: .5em;
 	margin-left: 3em;
 }
