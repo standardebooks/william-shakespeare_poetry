@@ -33,9 +33,9 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85043340</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">A collection of Wiliam Shakespeare’s published poems and sonnets.</dc:description>
+		<dc:description id="description">A collection of William Shakespeare’s published poems and sonnets.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Mostly known for his plays, William Shakespeare did publish some poetry during his writing career. From 1592 to 1593, an outbreak of the bubonic plague swept through England, killing almost 20,000 people. In January 1923 city officials ordered the theaters in London to shut their doors, and work for the famous playwright and actor came to a halt. William Shakespeare turned to writing poetry to make ends meat during the closures. While the plague hindered his work in theaters it did provide source matterial for some of Shakespeare’s most famous plays.&lt;/p&gt;
+			&lt;p&gt;Mostly known for his plays, William Shakespeare did publish some poetry during his writing career. From 1592 to 1593, an outbreak of the bubonic plague swept through England, killing almost 20,000 people. In January 1923 city officials ordered the theaters in London to shut their doors, and work for the famous playwright and actor came to a halt. William Shakespeare turned to writing poetry to make ends meet during the closures. While the plague hindered his work in theaters it did provide source matterial for some of Shakespeare’s most famous plays.&lt;/p&gt;
 			&lt;p&gt;The first poems he published were &lt;i&gt;Venus and Adonis&lt;/i&gt; in 1593, followed by &lt;i&gt;The Rape of Lucrece&lt;/i&gt; in 1594. While both narrative poems contain sexual themes their views on love versus lust provide a stark contrast. After the theaters had reopened, William Shakespeare continued to write poetry and published &lt;i&gt;The Passionate Pilgrim&lt;/i&gt; and &lt;i&gt;The Pheonix and the Turtle&lt;/i&gt;. The last of his poems were published in his 1609 quarto, containing 154 sonnets and &lt;i&gt;A Lover’s Complaint&lt;/i&gt;. The sonnets cover an array of themes: different types of romantic love, real beauty versus clichéd beauty, and the responsibilities of being beautiful.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
@@ -54,8 +54,8 @@
 		<meta property="file-as" refines="#artist">Taylor, John</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Taylor_(painter)</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">PG Shakespeare Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">PG Shakespeare Team</meta>
+		<dc:contributor id="transcriber-1"><abbr>PG</abbr> Shakespeare Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1"><abbr>PG</abbr> Shakespeare Team</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
