@@ -45,8 +45,8 @@ header blockquote p{
 
 header p[epub|type~="z3998:valediction"],
 header p.signature{
-	margin-top:1em;
-	text-align:right;
+	margin-top: 1em;
+	text-align: right;
 }
 
 p[epub|type~="z3998:valediction"] + p.signature{
