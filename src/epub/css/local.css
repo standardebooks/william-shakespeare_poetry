@@ -34,35 +34,29 @@ header p[epub|type~="dedication"]{
 	text-align: center;
 	font-variant: small-caps;
 }
-/* end dedication */
 
-/* dedication letter */
-[epub|type~="z3998:letter"] header p{
-	text-align: right;
+header blockquote p{
+	text-align: left;
 }
 
-[epub|type~="z3998:letter"] header + p{
-	text-indent: 0;
-}
-
-[epub|type~="z3998:letter"] footer p{
-	margin-top: 1em;
-	text-align: right;
-}
-
-[epub|type~="z3998:letter"] footer p + p{
-	margin-top: 0;
-}
-
-[epub|type~="z3998:sender"],
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
+}
+
+header p[epub|type~="z3998:valediction"],
+header p.signature{
+	margin-top:1em;
+	text-align:right;
+}
+
+p[epub|type~="z3998:valediction"] + p.signature{
+	margin-top: 0;
 }
 
 .signature{
 	font-variant: small-caps;
 }
-/* end dedication letter */
+/* end dedication */
 
 /* poem */
 [epub|type~="z3998:poem"] p{
