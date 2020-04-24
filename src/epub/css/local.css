@@ -1,8 +1,16 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-article{
+article,
+[epub|type~="prologue"],
+#venus-and-adonis-dedication,
+#sonnets,
+#sonnets header{
 	page-break-after: always;
+}
+
+[epub|type~="prologue"] + section{
+	margin-top: 3em;
 }
 
 /* epigraph */
@@ -18,10 +26,6 @@ article > header [epub|type~="epigraph"]{
 	text-align: left;
 }
 
-article > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
 @supports(display: table){
 	article > header [epub|type~="epigraph"]{
 		display: table;
@@ -30,7 +34,8 @@ article > header [epub|type~="epigraph"] + *{
 /* end epigraph */
 
 /* dedication */
-header p[epub|type~="dedication"]{
+#sonnets [epub|type~="dedication"],
+[epub|type~="dedication"] > p{
 	text-align: center;
 	font-variant: small-caps;
 }
@@ -39,22 +44,29 @@ header blockquote p{
 	text-align: left;
 }
 
+[epub|type~="dedication"] blockquote p + p{
+	margin-top: 0;
+}
+
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
 
-header p[epub|type~="z3998:valediction"],
-header p.signature{
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+footer{
 	margin-top: 1em;
 	text-align: right;
 }
 
-p[epub|type~="z3998:valediction"] + p.signature{
-	margin-top: 0;
-}
-
 .signature{
 	font-variant: small-caps;
+}
+
+[epub|type~="dedication"] + section{
+	margin-top: 3em;
 }
 /* end dedication */
 
