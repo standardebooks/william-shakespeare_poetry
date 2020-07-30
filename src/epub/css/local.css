@@ -6,7 +6,7 @@ article,
 #venus-and-adonis-dedication,
 #sonnets,
 #sonnets header{
-	page-break-after: always;
+	break-after: page;
 }
 
 [epub|type~="prologue"] + section{
@@ -17,6 +17,7 @@ article,
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
+	-epub-hyphens: none;
 }
 
 article > header [epub|type~="epigraph"]{
