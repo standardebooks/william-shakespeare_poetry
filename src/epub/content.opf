@@ -33,7 +33,7 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85043340</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">A collection of all of William Shakespeare’s poems and sonnets.</dc:description>
+		<dc:description id="description">A collection of William Shakespeare’s poems and sonnets.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Though mostly known for his plays, &lt;a href="https://standardebooks.org/ebooks/william-shakespeare"&gt;Shakespeare&lt;/a&gt; also published poetry during his writing career. From 1592 to 1593, an outbreak of the bubonic plague swept through England, killing almost 20,000 people. In January 1593 city officials ordered the theaters in London to shut their doors, and work for the famous playwright and actor came to a halt. Shakespeare turned to writing poetry to make ends meet during the closures. While the plague hindered his work in theaters, it provided source material for some of his most famous plays.&lt;/p&gt;
 			&lt;p&gt;He first published “Venus and Adonis” in 1593, followed by “The Rape of Lucrece” in 1594. While both narrative poems contain sexual themes, their views on love versus lust are in stark contrast. After the theaters reopened, Shakespeare continued to write poetry and went on to publish “The Passionate Pilgrim” and “The Phoenix and the Turtle.” The last of his poems were published in his 1609 quarto, containing 154 sonnets and “A Lover’s Complaint.” The sonnets cover an array of themes: different types of romantic love, real beauty versus clichéd beauty, and the responsibilities of being beautiful.&lt;/p&gt;
