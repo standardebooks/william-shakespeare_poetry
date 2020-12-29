@@ -24,7 +24,7 @@ article > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: table){
@@ -42,7 +42,7 @@ article > header [epub|type~="epigraph"]{
 }
 
 header blockquote p{
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="dedication"] blockquote p + p{
@@ -74,7 +74,7 @@ footer{
 /* poem */
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
