@@ -45,7 +45,7 @@
 		<dc:source>https://catalog.hathitrust.org/Record/004135080</dc:source>
 		<meta property="se:word-count">49859</meta>
 		<meta property="se:reading-ease.flesch">62.95</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Poetry</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/william-shakespeare_poetry</meta>
 		<dc:creator id="author">William Shakespeare</dc:creator>
 		<meta property="file-as" refines="#author">Shakespeare, William</meta>
