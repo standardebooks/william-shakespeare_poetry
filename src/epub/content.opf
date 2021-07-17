@@ -34,6 +34,8 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85043340</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A collection of William Shakespeare’s poems and sonnets.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Though mostly known for his plays, &lt;a href="https://standardebooks.org/ebooks/william-shakespeare"&gt;Shakespeare&lt;/a&gt; also published poetry during his writing career. From 1592 to 1593, an outbreak of the bubonic plague swept through England, killing almost 20,000 people. In January 1593 city officials ordered the theaters in London to shut their doors, and work for the famous playwright and actor came to a halt. Shakespeare turned to writing poetry to make ends meet during the closures. While the plague hindered his work in theaters, it provided source material for some of his most famous plays.&lt;/p&gt;
