@@ -37,8 +37,8 @@ article > header [epub|type~="epigraph"]{
 /* dedication */
 #sonnets [epub|type~="dedication"],
 [epub|type~="dedication"] > p{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 header blockquote p{
