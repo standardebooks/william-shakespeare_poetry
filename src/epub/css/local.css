@@ -43,8 +43,8 @@ article > header [epub|type~="epigraph"]{
 }
 
 #venus-and-adonis [epub|type~="dedication"] > p{
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 
 header blockquote p{
