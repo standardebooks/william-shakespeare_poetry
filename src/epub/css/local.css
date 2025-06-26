@@ -36,25 +36,23 @@ article > header [epub|type~="epigraph"]{
 
 /* dedication */
 #sonnets [epub|type~="dedication"],
-[epub|type~="dedication"] > p{
+#venus-and-adonis [epub|type~="dedication"] header,
+#the-rape-of-lucrece [epub|type~="dedication"] > p{
 	font-variant: small-caps;
 	text-align: center;
+}
+
+#venus-and-adonis [epub|type~="dedication"] > p{
+	text-indent: 0;
+	text-align: initial;
 }
 
 header blockquote p{
 	text-align: initial;
 }
 
-[epub|type~="dedication"] blockquote p + p{
-	margin-top: 0;
-}
-
-[epub|type~="z3998:salutation"]{
+#venus-and-adonis [epub|type~="dedication"] header + p{
 	font-variant: small-caps;
-}
-
-[epub|type~="z3998:salutation"] + p{
-	text-indent: 0;
 }
 
 footer{
