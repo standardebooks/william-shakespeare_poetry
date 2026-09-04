@@ -30,7 +30,7 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Poetry</dc:title>
 		<meta property="file-as" refines="#title">Poetry</meta>
-		<dc:subject id="subject-1">English drama -- Early modern and Elizabethan, 1500-1600</dc:subject>
+		<dc:subject id="subject-1">English drama--Early modern and Elizabethan, 1500-1600</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85043340</meta>
 		<meta property="schema:genre">Poetry</meta>
