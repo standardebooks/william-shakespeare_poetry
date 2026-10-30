@@ -37,7 +37,7 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta id="collection-1-entry-1" property="schema:hasPart" refines="#collection-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">Sonnets</meta>
 		<meta property="schema:abstract">A collection of William Shakespeare’s poems and sonnets.</meta>
